@@ -1,13 +1,12 @@
 #include "graphics.h"
 #include "picture.hpp"
-int main()
-{ 
-  initwindow(800,600);
+int main() {
+  initwindow(800, 600);
   house();
-  sun(); 
+  sun();
   man();
   fence();
-  // tree();
+  tree();
   getch();
   closegraph();
 }
