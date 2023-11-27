@@ -8,5 +8,6 @@ int main() {
   fence();
   tree();
   getch();
+  lake();
   closegraph();
 }
